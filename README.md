@@ -9,6 +9,7 @@ please follow the following 4 steps.
 	Please download the following two data from doi and move it to the *data* folder
 	* Wang_et_al_TAAG_2022_physiological_parameter.rds
 	* Wang_et_al_TAAG_2022_output_trait.rds
+
 3.Folder structure should look like this
  
  R_script                                                
