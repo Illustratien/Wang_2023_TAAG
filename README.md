@@ -1,5 +1,6 @@
 
-# Guide
+# Guide for reproducible analysis
+
 To reproduce the data in publication "More than 1000 genotypes are required to derive robust relationships between yield, yield stability and physiological parameters: a computational study on wheat crop",
 please follow the following 4 steps.
 
