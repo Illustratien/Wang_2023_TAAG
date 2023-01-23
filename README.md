@@ -1,11 +1,11 @@
 
-# Guide for reproducible analysis
+# Guide for reproducible scientific analysis
 
-To reproduce the data in publication "More than 1000 genotypes are required to derive robust relationships between yield, yield stability and physiological parameters: a computational study on wheat crop",
+To reproduce the figure results in publication from Wang et al, 2023 (https://doi.org/10.1007/s00122-023-04264-7),
 please follow the following 4 steps.
 
-1. clone the repository to your local environment
-2. Go to Wang, et al., 2022, 10.5281/zenodo.4729637!!,
+1. Clone the repository to your local environment
+2. Go to data repository on Zenodo (Wang, et al., 2023, https://doi.org/10.5281/zenodo.4729637),
 	Please download the following two data from doi and move it to the *data* folder
 	* Wang_et_al_TAAG_2022_physiological_parameter.rds
 	* Wang_et_al_TAAG_2022_output_trait.rds
@@ -14,8 +14,8 @@ please follow the following 4 steps.
  
  R_script                                                
    ¦--data                                                
-   ¦   ¦--Wang_et_al_TAAG_2022_output_trait.rds           
-   ¦   °--Wang_et_al_TAAG_2022_physiological_parameter.rds
+   ¦   ¦--Wang_et_al_TAAG_2023_output_trait.rds           
+   ¦   °--Wang_et_al_TAAG_2023_physiological_parameter.rds
    ¦--result                                              
    ¦   ¦--Env_number                                      
    ¦   ¦   ¦--Fig2                                        
@@ -44,8 +44,11 @@ please follow the following 4 steps.
    ¦   ¦--FigS4.R                                         
    ¦   ¦--TC_theme.R                                      
    ¦   °--TC_theme2.R                                     
-   ¦--Wang_2022_TAAG.Rproj                                
+   ¦--Wang_2023_TAAG.Rproj                                
    °--README.md     
 4. following the display order in src as shown in the directory tree above, start with the Data_preparation to FigS4.
 
 Enjoy!
+
+Citation info
+Wang, T-C., Casadebaig, P., Chen, T-W. More than 1000 genotypes are required to derive robust relationships between yield, yield stability and physiological parameters: a computational study on wheat crop. Theor Appl Genet xxx, xx–xx (2023). https://doi.org/10.1007/s00122-023-04264-7 
