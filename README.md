@@ -1,7 +1,7 @@
 
 # Guide for reproducible scientific analysis
 
-To reproduce the figure results in publication from Wang et al, 2023 (https://doi.org/10.1007/s00122-023-04264-7), 
+To reproduce the figure results in publication on Theoretical and Applied Genetics [Wang et al, 2023](https://doi.org/10.1007/s00122-023-04264-7), 
 
 please do the following 3 steps:
 
@@ -42,7 +42,8 @@ please do the following 3 steps:
 	* Wang_et_al_TAAG_2022_output_trait.rds    
 3. Run with the Data_preparation.R to FigS4.R in an ascending manner (order as shown above).
 
-Enjoy!
+Enjoy!!
+
 
 Citation info:  
 
