@@ -40,8 +40,8 @@ please do the following 4 steps:
 2. Go to [data repository on Zenodo](https://doi.org/10.5281/zenodo.4729637),
 	Please download the following data from Zenodo and place it to the **data** folder
 	* Wang_et_al_TAAG_2022_output_trait.rds    
-3. Install R package [*toolStability*](https://illustratien.github.io/toolStability/) by [`install.packages("toolStability")`](#code).
-4. Run with the Data_preparation.R to FigS4.R in an ascending manner (order as shown above).
+3. Install R package [*toolStability*](https://illustratien.github.io/toolStability/) by [`install.packages("toolStability")`](#code).    
+4. Run with the Data_preparation.R to FigS4.R in an ascending manner (order as shown above).  
 
 Enjoy!!
 
