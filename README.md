@@ -17,11 +17,7 @@ please follow the following 4 steps.
    ¦   ¦--Wang_et_al_TAAG_2023_output_trait.rds           
    ¦   °--Wang_et_al_TAAG_2023_physiological_parameter.rds
    ¦--result                                              
-   ¦   ¦--Env_number                                      
-   ¦   ¦   ¦--Fig2                                        
-   ¦   ¦   ¦--Fig4                                        
-   ¦   ¦   °--Figs3                                       
-   ¦   ¦--Genotype_number                                 
+   ¦   ¦                               
    ¦   °--Networkdata                                     
    ¦       ¦--si_layout_circle.csv                        
    ¦       °--t_layout_circle.csv                         

@@ -8,7 +8,7 @@ res_dir <- sub('src.*','result',src_dir)
 windowsFonts("Arial"=windowsFont("Arial"))
 
 # unit
-unit.pi <-quote('t ．ha'^'-1') 
+unit.pi <-quote('t ha'^'-1') 
 xlab1<-bquote(bold(Mean~yield)~bold('('*.(unit.pi)*')'))
 
 source(paste0(src_dir,"/TC_theme2.R"))
@@ -16,7 +16,7 @@ tc_theme2 <- TC_theme2(ax.txt.siz=6,
                        ax.tit.siz=6,
                        t=2,r=2,b=4,l=2)# axis line)
 # fig1 -------------------------------------------------------------------------
-stable_table <- read.csv(paste0(res_dir,"/Fig1_S1.csv.csv")) %>%
+stable_table <- read.csv(paste0(res_dir,"/Fig1_S1.csv")) %>%
   # skip two SI for display
   dplyr::filter(!SI%in%c("Stability.variance","Ecovalence.modified")) %>% 
   mutate(SI=gsub("\\."," ",SI),# replace . with space for display

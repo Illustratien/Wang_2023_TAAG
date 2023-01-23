@@ -8,7 +8,7 @@ res_dir <- sub('src.*','result',src_dir)
 source(paste0(src_dir,'/Fig2_prep_fun.R'))
 
 # read data-------------------------------------------------------------------------
-system.time(df <- readr::read_rds(paste0(dat_dir,'/nona_combine.rds')))# 124s
+system.time(df <- readr::read_rds(paste0(dat_dir,'/nona_combine.rds')))
 # split in to list element
 df.list<-split(df,df$Genotype)
 # first calculate the mean yield
@@ -30,8 +30,10 @@ gen_seed_len <-10
 
 # Fig2 -------------------------------------------------------------------------
 env_numb <-  c(3:15,seq(20,50,5),seq(60,120,10),seq(150,600,50))
+
+dir.create(file.path(res_dir,('/Env_number')),showWarnings = FALSE)
+dir.create(file.path(res_dir,('/Env_number/Fig2')),showWarnings = FALSE)
 file_dir <- paste0(res_dir,'/Env_number/Fig2/random/')
-dir.create(file.path(res_dir,('Env_number/Fig2')),showWarnings = FALSE)
 dir.create(file_dir,showWarnings = FALSE)
 exec_fun("random",pi_table=F)
 
@@ -53,7 +55,4 @@ dir.create(file_dir,showWarnings = FALSE)
 
 for (sampling.vec in c("top","random","even")){
   exec_fun(sampling.vec,pi_table=F)
-  
 }
-
-

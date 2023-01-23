@@ -14,7 +14,7 @@ ENV<-sample(unique(data_trait$Environment),100)
 # random sampling for 100 genotype ------------------------------------------------------------------
 
 set.seed(16902)
-rdm.gen<-sample(unique(data_trait$Genotype),gen_numb)
+rdm.gen<-sample(unique(data_trait$Genotype),100)
 
 # even sampling for 100 genotype based on mean yield --------------------------------------------------------------------
 #mean.yield
@@ -63,4 +63,4 @@ stable<-purrr::map_dfr(1:3,~{
   tidyr::gather(.,"SI","SI_value",
                 names(.)[!grepl("(Genotype|Mean.yield|label)",names(.))])
 
-write.csv(stb,paste0(res_dir,"/Fig1_S1.csv"))
+write.csv(stable,paste0(res_dir,"/Fig1_S1.csv"))

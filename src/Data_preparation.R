@@ -1,19 +1,22 @@
 # in order to run this script, 
-# plase first download the raw_data from 10.5281/zenodo.4729637 
-# and put it in the sub folder data
 
 
-# clean the enivronment
+# clean the environment
 rm(list = ls())
-
+library(purrr,dplyr)
 src_dir <- dirname(rstudioapi::getSourceEditorContext()$path)
 dat_dir <- sub('src','data',src_dir)
 dir.create(dat_dir, showWarnings = FALSE)
 
+# plase first download the two .rds files from https://doi.org/10.5281/zenodo.4729637 
+# and put the them in the sub folder "data"
+# Wang_2022_TAAG-main/data
+
+
 # read the raw_data
-system.time(df <- readr::read_rds(paste0(dat_dir,'/data/Wang_et_al_TAAG_2022_output_trait.rds')))# 124s
+system.time(df <- readr::read_rds(paste0(dat_dir,'/Wang_et_al_TAAG_2023_output_trait.rds')))# 124s
 # physiological parameters
-para <- readr::read_rds(paste0(dat_dir,'/data/Wang_et_al_TAAG_2022_physiological_parameter.rds'))
+para <- readr::read_rds(paste0(dat_dir,'/Wang_et_al_TAAG_2023_physiological_parameter.rds'))
 
 # selection for cleaning
 # split data to list by genotype
@@ -26,11 +29,14 @@ na.check.df <- purrr::map_dfr(list.dat,~{
 })
 # extract the genotype with na 
 geno.na.id <- dplyr::filter(na.check.df,Na==1)$Genotype
+
 # exclude the Genotype which contain NA in any of the trait
-new.comb <- dplyr::filter(list.dat,! Genotype%in% geno.na.id)
+new.comb <- dplyr::filter(df,! Genotype%in% geno.na.id) %>% 
+  # paste environments column into one for further use
+  mutate(Environment=paste(sites,sowing,nitrogen,co2,sep='_'))
+
 new.para <- dplyr::filter(para,!genotype %in% geno.na.id)
-# paste environments column into one for futher use
-new.comb$Environment <- with(new.comb,paste(sites,sowing,nitrogen,co2,sep='_'))
+
 
 # save result
 saveRDS(new.comb,paste0(dat_dir,'/nona_combine.rds'),compress = T)
