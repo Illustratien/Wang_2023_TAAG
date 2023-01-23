@@ -3,15 +3,10 @@
 
 To reproduce the figure results in publication from Wang et al, 2023 (https://doi.org/10.1007/s00122-023-04264-7), 
 
-please follow the following 4 steps:
+please do the following 3 steps:
 
-1. Clone the repository to your local environment
-2. Go to data repository on Zenodo (Wang, et al., 2023, https://doi.org/10.5281/zenodo.4729637),
-	Please download the following two data from doi and move it to the *data* folder
-	* Wang_et_al_TAAG_2022_physiological_parameter.rds
-	* Wang_et_al_TAAG_2022_output_trait.rds
-
-3.Folder structure should look like this
+1. Clone the repository to your local environment.
+   Folder structure should look like this:
  
  R_script                                                
    ¦--Wang_2023_TAAG.Rproj                                
@@ -42,11 +37,13 @@ please follow the following 4 steps:
        ¦--FigS4.R                                         
        ¦--TC_theme.R                                      
        °--TC_theme2.R                                     
-    
-4. following the display order in src as shown in the directory tree above, start with the Data_preparation.R to FigS4.R in an ascending manner.
+2. Go to data repository on Zenodo (Wang, et al., 2023, https://doi.org/10.5281/zenodo.4729637),
+	Please download the following data from Zenodo and place it to the **data** folder
+	* Wang_et_al_TAAG_2022_output_trait.rds    
+3. Run with the Data_preparation.R to FigS4.R in an ascending manner (order as shown above).
 
 Enjoy!
 
-Citation info  
+Citation info:  
 
 Wang, T-C., Casadebaig, P., Chen, T-W. More than 1000 genotypes are required to derive robust relationships between yield, yield stability and physiological parameters: a computational study on wheat crop. Theor Appl Genet (2023). https://doi.org/10.1007/s00122-023-04264-7 
