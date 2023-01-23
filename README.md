@@ -13,34 +13,34 @@ please follow the following 4 steps.
 3.Folder structure should look like this
  
  R_script                                                
+   ¦--Wang_2023_TAAG.Rproj                                
+   ¦--README.md     
    ¦--data                                                
-   ¦   ¦--Wang_et_al_TAAG_2023_output_trait.rds           
    ¦   °--Wang_et_al_TAAG_2023_physiological_parameter.rds
-   ¦--result                                                                          
+   ¦--result                                                                        
    ¦   °--Networkdata                                     
    ¦       ¦--si_layout_circle.csv                        
    ¦       °--t_layout_circle.csv                         
-   ¦--src                                                 
-   ¦   ¦--Data_preparation.R                              
-   ¦   ¦--Fig1_preparation.R                              
-   ¦   ¦--Fig1_S1.R                                       
-   ¦   ¦--Fig2.R                                          
-   ¦   ¦--Fig2_prep_fun.R                                 
-   ¦   ¦--Fig2_S3_4_preparation.R                         
-   ¦   ¦--Fig3.R                                          
-   ¦   ¦--Fig3_4_6_preparation.R                          
-   ¦   ¦--Fig3_6_prep_fun.R                               
-   ¦   ¦--Fig4.R                                          
-   ¦   ¦--Fig5.R                                          
-   ¦   ¦--Fig5_prep_fun.R                                 
-   ¦   ¦--Fig5_preparation.R                              
-   ¦   ¦--Fig6.R                                          
-   ¦   ¦--FigS3.R                                         
-   ¦   ¦--FigS4.R                                         
-   ¦   ¦--TC_theme.R                                      
-   ¦   °--TC_theme2.R                                     
-   ¦--Wang_2023_TAAG.Rproj                                
-   °--README.md     
+   °--src                                                 
+       ¦--Data_preparation.R                              
+       ¦--Fig1_preparation.R                              
+       ¦--Fig1_S1.R                                       
+       ¦--Fig2.R                                          
+       ¦--Fig2_prep_fun.R                                 
+       ¦--Fig2_S3_4_preparation.R                         
+       ¦--Fig3.R                                          
+       ¦--Fig3_4_6_preparation.R                          
+       ¦--Fig3_6_prep_fun.R                               
+       ¦--Fig4.R                                          
+       ¦--Fig5.R                                          
+       ¦--Fig5_prep_fun.R                                 
+       ¦--Fig5_preparation.R                              
+       ¦--Fig6.R                                          
+       ¦--FigS3.R                                         
+       ¦--FigS4.R                                         
+       ¦--TC_theme.R                                      
+       °--TC_theme2.R                                     
+    
 4. following the display order in src as shown in the directory tree above, start with the Data_preparation to FigS4.
 
 Enjoy!
