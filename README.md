@@ -37,7 +37,7 @@ please do the following 3 steps:
        ¦--FigS4.R                                         
        ¦--TC_theme.R                                      
        °--TC_theme2.R                                     
-2. Go to data repository on Zenodo (Wang, et al., 2023, https://doi.org/10.5281/zenodo.4729637),
+2. Go to [data repository on Zenodo](https://doi.org/10.5281/zenodo.4729637),
 	Please download the following data from Zenodo and place it to the **data** folder
 	* Wang_et_al_TAAG_2022_output_trait.rds    
 3. Run with the Data_preparation.R to FigS4.R in an ascending manner (order as shown above).
