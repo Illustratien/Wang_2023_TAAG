@@ -8,8 +8,8 @@ src_dir <- dirname(rstudioapi::getSourceEditorContext()$path)
 dat_dir <- sub('src','data',src_dir)
 dir.create(dat_dir, showWarnings = FALSE)
 
-# plase first download the two .rds files from https://doi.org/10.5281/zenodo.4729637 
-# and put the them in the sub folder "data"
+# plase first download the Wang_et_al_TAAG_2023_output_trait.rds file from https://doi.org/10.5281/zenodo.4729637 
+# and put the it in the sub folder "data"
 # Wang_2022_TAAG-main/data
 
 
