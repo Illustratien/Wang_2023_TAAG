@@ -43,7 +43,7 @@ please follow the following 4 steps:
        ¦--TC_theme.R                                      
        °--TC_theme2.R                                     
     
-4. following the display order in src as shown in the directory tree above, start with the Data_preparation to FigS4.
+4. following the display order in src as shown in the directory tree above, start with the Data_preparation.R to FigS4.R in an ascending manner.
 
 Enjoy!
 
