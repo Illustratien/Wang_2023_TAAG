@@ -15,8 +15,8 @@ please follow the following 4 steps.
  R_script                                                
    ¦--data                                                
    ¦   ¦--Wang_et_al_TAAG_2023_output_trait.rds           
-   ¦   °--Wang_et_al_TAAG_2023_physiological_parameter.rds 
-   ¦--result                                                                           
+   ¦   °--Wang_et_al_TAAG_2023_physiological_parameter.rds
+   ¦--result                                                                          
    ¦   °--Networkdata                                     
    ¦       ¦--si_layout_circle.csv                        
    ¦       °--t_layout_circle.csv                         
