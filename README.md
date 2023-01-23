@@ -38,7 +38,7 @@ please do the following 4 steps:
        ¦--FigS4.R                                         
        ¦--TC_theme.R                                      
        °--TC_theme2.R                                     
-2. Go to [data repository on Zenodo](https://doi.org/10.5281/zenodo.4729637),
+2. Go to [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4729637.svg)](https://doi.org/10.5281/zenodo.4729637),
 	Please download the following data from Zenodo and place it to the **data** folder
 	* Wang_et_al_TAAG_2022_output_trait.rds    
 3. Install R package [*toolStability*](https://illustratien.github.io/toolStability/) by [`install.packages("toolStability")`](#code).    
