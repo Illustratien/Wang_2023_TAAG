@@ -17,7 +17,6 @@ please follow the following 4 steps.
    ¦--README.md     
    ¦--data                                                
    ¦   °--Wang_et_al_TAAG_2023_physiological_parameter.rds 
-                                                          
    ¦--result                                                                        
    ¦   °--Networkdata                                     
    ¦       ¦--si_layout_circle.csv                        
