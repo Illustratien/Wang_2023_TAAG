@@ -16,8 +16,8 @@ please follow the following 4 steps.
    ¦--Wang_2023_TAAG.Rproj                                
    ¦--README.md     
    ¦--data                                                
-   ¦   °--Wang_et_al_TAAG_2023_physiological_parameter.rds
-   ¦                                                      
+   ¦   °--Wang_et_al_TAAG_2023_physiological_parameter.rds 
+                                                          
    ¦--result                                                                        
    ¦   °--Networkdata                                     
    ¦       ¦--si_layout_circle.csv                        
@@ -46,5 +46,5 @@ please follow the following 4 steps.
 
 Enjoy!
 
-Citation info
+Citation info 
 Wang, T-C., Casadebaig, P., Chen, T-W. More than 1000 genotypes are required to derive robust relationships between yield, yield stability and physiological parameters: a computational study on wheat crop. Theor Appl Genet (2023). https://doi.org/10.1007/s00122-023-04264-7 
