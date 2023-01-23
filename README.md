@@ -1,8 +1,9 @@
 
 # Guide for reproducible scientific analysis
 
-To reproduce the figure results in publication from Wang et al, 2023 (https://doi.org/10.1007/s00122-023-04264-7),
-please follow the following 4 steps.
+To reproduce the figure results in publication from Wang et al, 2023 (https://doi.org/10.1007/s00122-023-04264-7), 
+
+please follow the following 4 steps:
 
 1. Clone the repository to your local environment
 2. Go to data repository on Zenodo (Wang, et al., 2023, https://doi.org/10.5281/zenodo.4729637),
