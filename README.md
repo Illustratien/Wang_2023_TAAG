@@ -46,4 +46,4 @@ please follow the following 4 steps.
 Enjoy!
 
 Citation info
-Wang, T-C., Casadebaig, P., Chen, T-W. More than 1000 genotypes are required to derive robust relationships between yield, yield stability and physiological parameters: a computational study on wheat crop. Theor Appl Genet xxx, xx–xx (2023). https://doi.org/10.1007/s00122-023-04264-7 
+Wang, T-C., Casadebaig, P., Chen, T-W. More than 1000 genotypes are required to derive robust relationships between yield, yield stability and physiological parameters: a computational study on wheat crop. Theor Appl Genet (2023). https://doi.org/10.1007/s00122-023-04264-7 
